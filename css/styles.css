@@ -790,7 +790,7 @@ input:not ([type="checkbox"]) {
 .modal-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.2px;
     color: #2E2F42;
@@ -804,9 +804,16 @@ input:not ([type="checkbox"]) {
 .modal-form {}
 
 .modal-label {
+    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
     display: block;
+    margin-bottom: 4px;
+}
+
+.div-modal-input {
     position: relative;
-    margin-bottom: 8px;
 }
 
 .modal-label-name {
